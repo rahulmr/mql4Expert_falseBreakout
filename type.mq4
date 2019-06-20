@@ -6,13 +6,12 @@
    void type::setBarCrashTime(datetime dt){barCrashTime = dt;}
    datetime type::getBarCrashTime(void) {return barCrashTime;}
    
-   void type::setDatasfirstevent (bool busy_, string order_, double level_, double innerLevel_, double cancelLevel_, datetime firstFractalBar_)
+   void type::setDatasfirstevent (bool busy_, string order_, double level_, double innerLevel_, datetime firstFractalBar_)
    {
       busy = busy_;
       order = order_;
       level = level_;
       innerLevel = innerLevel_;
-      cancelLevel = cancelLevel_;
       firstFractalBar = firstFractalBar_;
    }
    
